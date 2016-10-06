@@ -3,9 +3,6 @@ FROM mhart/alpine-node:4
 RUN apk --update add openjdk7-jre openssh git && \
     rm -rf /var/cache/apk/*
 
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
-    chmod +x /usr/local/bin/composer
-
 USER root
 ADD https://get.docker.com/builds/Linux/x86_64/docker-latest.tgz /tmp
 RUN tar -xvzf /tmp/docker-latest.tgz && mv docker/* /usr/bin/ && chmod 755 /usr/bin/docker && rm -f /tmp/docker-latest.tgz

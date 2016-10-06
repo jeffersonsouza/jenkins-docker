@@ -1,0 +1,43 @@
+version: '2'
+services:
+    jenkins:
+        build: .
+        privileged: true
+        restart: always
+        ports:
+            - "8085:8080"
+            - "50000:50000"
+        volumes:
+            - jenkins-data:/var/jenkins_home/
+            - /var/run/docker.sock:/var/run/docker.sock
+        links:
+            - node
+            - php
+            - php56
+    node:
+        build: ./node-slave
+        privileged: true
+        ports:
+            - 22
+        volumes:
+            - jenkins-data:/var/jenkins_home/
+            - /var/run/docker.sock:/var/run/docker.sock
+    php:
+        build: ./php-slave
+        privileged: true
+        ports:
+            - 22
+        volumes:
+            - jenkins-data:/var/jenkins_home/
+            - /var/run/docker.sock:/var/run/docker.sock
+    php56:
+        build: ./php56-slave
+        privileged: true
+        ports:
+            - 22
+        volumes:
+            - jenkins-data:/var/jenkins_home/
+            - /var/run/docker.sock:/var/run/docker.sock
+volumes:
+    jenkins-data:
+        driver: local

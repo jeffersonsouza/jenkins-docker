@@ -1,7 +1,7 @@
 version: '2'
 services:
     jenkins:
-        build: .
+        image: jeffersonsouza/jenkins:alpine
         privileged: true
         restart: always
         ports:
@@ -10,12 +10,8 @@ services:
         volumes:
             - jenkins-data:/var/jenkins_home/
             - /var/run/docker.sock:/var/run/docker.sock
-        links:
-            - node
-            - php
-            - php56
     node:
-        build: ./node-slave
+        image: jeffersonsouza/jenkins:slave-node
         privileged: true
         ports:
             - 22
@@ -23,7 +19,7 @@ services:
             - jenkins-data:/var/jenkins_home/
             - /var/run/docker.sock:/var/run/docker.sock
     php:
-        build: ./php-slave
+        image: jeffersonsouza/jenkins:slave-php
         privileged: true
         ports:
             - 22
@@ -31,7 +27,7 @@ services:
             - jenkins-data:/var/jenkins_home/
             - /var/run/docker.sock:/var/run/docker.sock
     php56:
-        build: ./php56-slave
+        image: jeffersonsouza/jenkins:slave-php5
         privileged: true
         ports:
             - 22

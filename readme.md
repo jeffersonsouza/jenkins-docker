@@ -5,6 +5,7 @@ To run this project, just clone, and run the docker compose file. It will start 
 
 To start via docker compose just run the follow:
 
+``` yaml
 version: '2'
 services:
     jenkins:
@@ -44,5 +45,5 @@ services:
 volumes:
     jenkins-data:
         driver: local
-
+```
 @todo More docs: soon. :)

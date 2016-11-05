@@ -3,7 +3,9 @@ Jenkins 2 inside docker containers using containers as slaves to build PHP and N
 
 To run this project, just clone, and run the docker compose file. It will start the Jenkins Master with useful plugins and PHP 5.6, PHP 7 and NodeJS 4 slaves.
 
-To start via docker compose just run the follow:
+To start via docker compose:
+
+`docker-compose.yml`
 
 ``` yaml
 version: '2'
@@ -46,4 +48,7 @@ volumes:
     jenkins-data:
         driver: local
 ```
+
+then run `docker-compose up -d`
+
 @todo More docs: soon. :)

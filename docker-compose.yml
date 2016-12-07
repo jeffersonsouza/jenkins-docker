@@ -15,25 +15,22 @@ services:
         privileged: true
         ports:
             - 22
-        volumes:
-            - jenkins-data:/var/jenkins_home/
-            - /var/run/docker.sock:/var/run/docker.sock
+        volumes_from:
+            - jenkins
     php:
         image: jeffersonsouza/jenkins:slave-php
         privileged: true
         ports:
             - 22
-        volumes:
-            - jenkins-data:/var/jenkins_home/
-            - /var/run/docker.sock:/var/run/docker.sock
+        volumes_from:
+            - jenkins
     php56:
         image: jeffersonsouza/jenkins:slave-php5
         privileged: true
         ports:
             - 22
-        volumes:
-            - jenkins-data:/var/jenkins_home/
-            - /var/run/docker.sock:/var/run/docker.sock
+        volumes_from:
+            - jenkins
 volumes:
     jenkins-data:
         driver: local

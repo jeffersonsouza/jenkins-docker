@@ -1,4 +1,4 @@
-FROM jenkins:2.46.1-alpine
+FROM jenkins/jenkins:lts-alpine
 MAINTAINER Jefferson Souza <jeffersonsouza@phprio.org>
 
 COPY plugins.txt /usr/share/jenkins/plugins.txt

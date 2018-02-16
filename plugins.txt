@@ -1,134 +1,129 @@
-timestamper:1.8.8
-oauth-credentials:0.3
-ldap:1.14
-dry:2.47
-blueocean-github-pipeline:1.0.1
-plot:1.9
-github-oauth:0.25
-blueocean-dashboard:1.0.1
-checkstyle:3.48
-blueocean-web:1.0.1
-build-user-vars-plugin:1.5
-cloverphp:0.5
-mercurial:1.59
-pipeline-github-lib:1.0
-blueocean-display-url:2.0
-javadoc:1.4
-analysis-core:1.86
-blueocean-events:1.0.1
-handlebars:1.1.1
-git:3.2.0
-workflow-step-api:2.9
-ws-cleanup:0.32
-credentials:2.1.13
-jdepend:1.2.4
-pipeline-milestone-step:1.3.1
-ant:1.4
-structs:1.6
-github-pullrequest:0.1.0-rc22
-promoted-builds:2.28.1
-bouncycastle-api:2.16.1
-pipeline-stage-tags-metadata:1.1.2
-authentication-tokens:1.3
-pipeline-rest-api:2.6
-junit:1.20
-htmlpublisher:1.13
-mailer:1.20
-docker-workflow:1.10
-oic-auth:1.0
-violations:0.7.11
-blueocean-i18n:1.0.1
-workflow-aggregator:2.5
-git-changelog:1.49
-linenumbers:1.1
-blueocean-personalization:1.0.1
-git-server:1.7
-subversion:2.7.2
-token-macro:2.1
-mapdb-api:1.0.9.0
-github-pr-coverage-status:1.6.0
-docker-commons:1.6
-workflow-cps-global-lib:2.7
-blueocean-autofavorite:0.7
-git-client:2.4.1
-windows-slaves:1.3.1
-pipeline-utility-steps:1.3.0
-ace-editor:1.1
-resource-disposer:0.6
-github:1.27.0
-icon-shim:2.0.3
-ssh-credentials:1.13
-display-url-api:2.0
-workflow-basic-steps:2.4
-external-monitor-job:1.7
-openid4java:0.9.8.0
-pipeline-build-step:2.5
-pam-auth:1.3
-blueocean-config:1.0.1
-openid:2.2
-sse-gateway:1.15
-branch-api:2.0.8
-google-login:1.3
-blueocean-jwt:1.0.1
-next-build-number:1.4
-momentjs:1.1.1
-antisamy-markup-formatter:1.5
-pmd:3.47
-gitlab-merge-request-jenkins:2.0.0
-pipeline-stage-view:2.6
-pipeline-model-declarative-agent:1.1.1
-durable-task:1.13
-favorite:2.0.4
-email-ext:2.57.2
-pipeline-stage-step:2.2
-metrics:3.1.2.9
-blueocean-pipeline-editor:0.2.0
-blueocean-pipeline-api-impl:1.0.1
-cloudbees-folder:6.0.3
-plain-credentials:1.4
-workflow-support:2.14
-php:1.0
-gravatar:2.1
-gradle:1.26
-xunit:1.102
-github-branch-source:2.0.5
-pipeline-graph-analysis:1.3
-scm-api:2.1.1
-github-issues:1.2.2
-workflow-job:2.10
-gitlab-oauth:1.0.9
-pipeline-githubnotify-step:1.0.2
-workflow-scm-step:2.4
-pipeline-input-step:2.5
-pipeline-model-extensions:1.1.2
-matrix-project:1.10
-docker-plugin:0.16.2
-workflow-durable-task-step:2.10
-ghprb:1.36.2
-variant:1.1
-pipeline-model-api:1.1.2
-github-api:1.85
-workflow-api:2.13
-script-security:1.27
-url-auth-sso:1.0
-ssh-agent:1.15
-global-build-stats:1.4
-github-organization-folder:1.6
-blueocean-git-pipeline:1.0.1
-build-timeout:1.18
-blueocean-commons:1.0.1
-pipeline-model-definition:1.1.2
-workflow-multibranch:2.14
-ssh-slaves:1.17
-jquery-detached:1.2.1
-blueocean-rest:1.0.1
-matrix-auth:1.5
-jackson2-api:2.7.3
-pubsub-light:1.7
-workflow-cps:2.29
-credentials-binding:1.11
-docker-custom-build-environment:1.6.5
-gitlab-plugin:1.4.5
-maven-plugin:2.15.1
-blueocean-rest-impl:1.0.1
-blueocean:1.0.1
+violations: 0.7.11
+plain-credentials: 1.4
+structs: 1.14
+pipeline-rest-api: 2.9
+tasks: 4.52
+docker-custom-build-environment: 1.6.5
+cloverphp: 0.5
+cloudbees-disk-usage-simple: 0.9
+jsch: 0.1.54.2
+pipeline-model-declarative-agent: 1.1.1
+gradle: 1.28
+blueocean-web: 1.4.1
+workflow-basic-steps: 2.6
+ssh-agent: 1.15
+subversion: 2.10.2
+external-monitor-job: 1.7
+plot: 2.0.3
+ssh-slaves: 1.25.1
+workflow-durable-task-step: 2.19
+htmlpublisher: 1.14
+pipeline-build-step: 2.7
+icon-shim: 2.0.3
+copy-to-slave: 1.4.4
+pmd: 3.50
+build-timeout: 1.19
+apache-httpcomponents-client-4-api: 4.5.3-2.1
+git: 3.7.0
+phing: 0.13.3
+ssh-credentials: 1.13
+checkstyle: 3.50
+blueocean-jwt: 1.4.1
+workflow-aggregator: 2.5
+bitbucket-build-status-notifier: 1.3.3
+junit: 1.24
+pipeline-model-definition: 1.2.7
+pam-auth: 1.3
+blueocean-pipeline-scm-api: 1.4.1
+branch-api: 2.0.18
+credentials-binding: 1.15
+embeddable-build-status: 1.9
+pipeline-model-extensions: 1.2.7
+php: 1.0
+dry: 2.50
+pipeline-model-api: 1.2.7
+resource-disposer: 0.8
+build-user-vars-plugin: 1.5
+jenkins-design-language: 1.4.1
+antisamy-markup-formatter: 1.5
+docker-build-publish: 1.3.2
+promoted-builds: 2.31.1
+workflow-job: 2.17
+matrix-auth: 2.2
+aws-java-sdk: 1.11.264
+scm-api: 2.2.6
+aws-credentials: 1.23
+script-security: 1.41
+javadoc: 1.4
+docker-commons: 1.11
+workflow-support: 2.18
+github: 1.29.0
+blueocean-bitbucket-pipeline: 1.4.1
+command-launcher: 1.2
+ace-editor: 1.1
+pipeline-github-lib: 1.0
+pipeline-graph-analysis: 1.6
+github-oauth: 0.29
+workflow-cps: 2.45
+ws-cleanup: 0.34
+pipeline-stage-view: 2.9
+credentials: 2.1.16
+mailer: 1.20
+docker-traceability: 1.2
+cloudbees-bitbucket-branch-source: 2.2.10
+workflow-cps-global-lib: 2.9
+authentication-tokens: 1.3
+display-url-api: 2.2.0
+test-results-analyzer: 0.3.4
+xunit: 1.102
+timestamper: 1.8.9
+multiple-scms: 0.6
+blueocean-core-js: 1.4.1
+github-organization-folder: 1.6
+durable-task: 1.18
+global-build-stats: 1.5
+windows-slaves: 1.3.1
+momentjs: 1.1.1
+github-branch-source: 2.3.2
+buildtriggerbadge: 2.9
+workflow-multibranch: 2.17
+blueocean-rest-impl: 1.4.1
+workflow-step-api: 2.14
+github-api: 1.90
+ghprb: 1.40.0
+monitoring: 1.71.0
+jquery-detached: 1.2.1
+git-client: 2.7.1
+ldap: 1.19
+mercurial: 2.2
+email-ext: 2.61
+mapdb-api: 1.0.9.0
+workflow-scm-step: 2.6
+docker-plugin: 1.1.3
+blueocean-commons: 1.4.1
+maven-plugin: 3.1
+blueocean-pipeline-api-impl: 1.4.1
+bouncycastle-api: 2.16.2
+http_request: 1.8.22
+pipeline-milestone-step: 1.3.1
+blueocean-rest: 1.4.1
+ant: 1.8
+jackson2-api: 2.8.11.1
+docker-java-api: 3.0.14
+pipeline-stage-tags-metadata: 1.2.7
+variant: 1.1
+favorite: 2.3.1
+analysis-core: 1.94
+handlebars: 1.1.1
+pipeline-stage-step: 2.3
+pubsub-light: 1.12
+docker-workflow: 1.15.1
+jdepend: 1.2.4
+workflow-api: 2.25
+cloudbees-folder: 6.3
+matrix-project: 1.12
+bitbucket: 1.1.8
+pipeline-input-step: 2.8
+handy-uri-templates-2-api: 2.1.6-1.0
+git-server: 1.7
+token-macro: 2.3

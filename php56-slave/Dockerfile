@@ -1,7 +1,7 @@
 FROM php:5-fpm-alpine
 MAINTAINER Jefferson Souza <jeffersonsouza@phprio.org>
 
-RUN apk --update add openjdk7-jre openssh git && \
+RUN apk --update add openjdk8-jre openssh git && \
     rm -rf /var/cache/apk/*
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \

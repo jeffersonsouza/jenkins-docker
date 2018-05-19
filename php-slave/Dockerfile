@@ -1,4 +1,4 @@
-FROM php:fpm-alpine
+FROM nasajon/php:7.1-fpm-dev
 MAINTAINER Jefferson Souza <jeffersonsouza@phprio.org>
 
 RUN apk --update add openjdk7-jre openssh git && \

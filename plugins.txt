@@ -1,130 +1,131 @@
-Multiple SCMs plugin (multiple-scms): 0.6
-Pipeline: Input Step (pipeline-input-step): 2.9
-Docker API Plugin (docker-java-api): 3.0.14
-Pipeline: Model API (pipeline-model-api): 1.3.3.1
-Credentials Binding Plugin (credentials-binding): 1.18
-Bitbucket Branch Source Plugin (cloudbees-bitbucket-branch-source): 2.4.2
-WMI Windows Agents Plugin (windows-slaves): 1.4
-Maven Integration plugin (maven-plugin): 3.2
-Hudson global-build-stats plugin (global-build-stats): 1.5
-Docker Commons Plugin (docker-commons): 1.13
-Clover PHP plugin (cloverphp): 0.5
-promoted builds plugin (promoted-builds): 3.2
-Pipeline: Declarative (pipeline-model-definition): 1.3.3.1
-GIT server Plugin (git-server): 1.7
-Folders Plugin (cloudbees-folder): 6.5.1
-Authentication Tokens API Plugin (authentication-tokens): 1.3
-CloudBees Docker Custom Build Environment Plugin (docker-custom-build-environment): 1.7.3
-OWASP Markup Formatter Plugin (antisamy-markup-formatter): 1.5
-REST Implementation for Blue Ocean (blueocean-rest-impl): 1.6.2
-bouncycastle API Plugin (bouncycastle-api): 2.17
-Timestamper (timestamper): 1.8.10
-JavaScript GUI Lib: Moment.js bundle plugin (momentjs): 1.1.1
-HTML Publisher plugin (htmlpublisher): 1.18
-CloudBees Disk Usage Simple Plugin (cloudbees-disk-usage-simple): 0.9
-Build Trigger Badge Plugin (buildtriggerbadge): 2.10
-JWT for Blue Ocean (blueocean-jwt): 1.6.2
-Mailer Plugin (mailer): 1.23
-Pipeline: Step API (workflow-step-api): 2.18
-Pipeline implementation for Blue Ocean (blueocean-pipeline-api-impl): 1.6.2
-Bitbucket Build Status Notifier Plugin (bitbucket-build-status-notifier): 1.4.1
-Design Language (jenkins-design-language): 1.6.2
-Checkstyle Plug-in (checkstyle): 4.0.0
-Jackson 2 API Plugin (jackson2-api): 2.9.8
-Pipeline: Stage View Plugin (pipeline-stage-view): 2.10
-JavaScript GUI Lib: jQuery bundles (jQuery and jQuery UI) plugin (jquery-detached): 1.2.1
-Javadoc Plugin (javadoc): 1.5
-Pipeline: Shared Groovy Libraries (workflow-cps-global-lib): 2.13
-Workspace Cleanup Plugin (ws-cleanup): 0.37
-Credentials Plugin (credentials): 2.1.18
-GitHub Pull Request Builder (ghprb): 1.42.0
-Monitoring (monitoring): 1.76.0
-Branch API Plugin (branch-api): 2.2.0
-Pipeline: Groovy (workflow-cps): 2.57.3
-CloudBees AWS Credentials Plugin (aws-credentials): 1.26
-SSH Slaves plugin (ssh-slaves): 1.29.4
-Pipeline: API (workflow-api): 2.27
-Script Security Plugin (script-security): 1.56
-Web for Blue Ocean (blueocean-web): 1.6.2
-GitHub Authentication plugin (github-oauth): 0.31
-JDK Tool Plugin (jdk-tool): 1.0
-LDAP Plugin (ldap): 1.20
-Violations plugin (violations): 0.7.11
-JavaScript GUI Lib: ACE Editor bundle plugin (ace-editor): 1.1
-Pipeline: SCM Step (workflow-scm-step): 2.7
-Structs Plugin (structs): 1.17
-Pipeline: Stage Step (pipeline-stage-step): 2.3
-Pipeline: Milestone Step (pipeline-milestone-step): 1.3.1
-CloudBees Docker Build and Publish plugin (docker-build-publish): 1.3.2
-GitHub API Plugin (github-api): 1.95
-Test Results Analyzer Plugin (test-results-analyzer): 0.3.5
-Task Scanner Plug-in (tasks): 4.53
-Embeddable Build Status Plugin (embeddable-build-status): 2.0
-External Monitor Job Type Plugin (external-monitor-job): 1.7
-Plot plugin (plot): 2.1.0
-Copy To Slave Plugin (copy-to-slave): 1.4.4
-Pipeline: Stage Tags Metadata (pipeline-stage-tags-metadata): 1.3.3.1
-Pub-Sub "light" Bus (pubsub-light): 1.12
-Docker plugin (docker-plugin): 1.1.6
-SSH Agent Plugin (ssh-agent): 1.17
-php (php): 1.0
-SSH Credentials Plugin (ssh-credentials): 1.15
-JDepend Plugin (jdepend): 1.3.0
-GitHub Branch Source Plugin (github-branch-source): 2.4.2
-JUnit Plugin (junit): 1.27
-Pipeline: Basic Steps (workflow-basic-steps): 2.8.3
-Email Extension Plugin (email-ext): 2.65
-Pipeline SCM API for Blue Ocean (blueocean-pipeline-scm-api): 1.6.2
-JavaScript GUI Lib: Handlebars bundle plugin (handlebars): 1.1.1
-Display URL API (display-url-api): 2.3.1
-DRY Plug-in (dry): 3.0.0
-xUnit plugin (xunit): 2.3.3
-Pipeline: Supporting APIs (workflow-support): 2.20
-Matrix Project Plugin (matrix-project): 1.14
-Subversion Plug-in (subversion): 2.12.1
-PMD Plug-in (pmd): 4.0.0
-Blue Ocean Core JS (blueocean-core-js): 1.6.2
-Pipeline Graph Analysis Plugin (pipeline-graph-analysis): 1.9
-Pipeline: REST API Plugin (pipeline-rest-api): 2.10
-Durable Task Plugin (durable-task): 1.29
-REST API for Blue Ocean (blueocean-rest): 1.6.2
-Gradle Plugin (gradle): 1.31
-user build vars plugin (build-user-vars-plugin): 1.5
-Amazon Web Services SDK (aws-java-sdk): 1.11.457
-Docker Pipeline (docker-workflow): 1.17
-Plain Credentials Plugin (plain-credentials): 1.5
-Pipeline: Declarative Extension Points API (pipeline-model-extensions): 1.3.3.1
-Variant Plugin (variant): 1.2
-Build Timeout (build-timeout): 1.19
-Ant Plugin (ant): 1.8
-Common API for Blue Ocean (blueocean-commons): 1.6.2
-Mercurial plugin (mercurial): 2.5
-CloudBees Docker Traceability (docker-traceability): 1.2
-Pipeline (workflow-aggregator): 2.5
-Apache HttpComponents Client 4.x API Plugin (apache-httpcomponents-client-4-api): 4.5.5-3.0
-SCM API Plugin (scm-api): 2.4.0
-JSch dependency plugin (jsch): 0.1.55
-Bitbucket Plugin (bitbucket): 1.1.8
-GitHub Organization Folder Plugin (github-organization-folder): 1.6
-Pipeline: GitHub Groovy Libraries (pipeline-github-lib): 1.0
-Favorite (favorite): 2.3.2
-Matrix Authorization Strategy Plugin (matrix-auth): 2.3
-Static Analysis Utilities (analysis-core): 1.95
-Pipeline: Declarative Agent API (pipeline-model-declarative-agent): 1.1.1
-Pipeline: Nodes and Processes (workflow-durable-task-step): 2.22
-Pipeline: Build Step (pipeline-build-step): 2.7
-Phing plugin (phing): 0.13.3
-Pipeline: Job (workflow-job): 2.25
-Pipeline: Multibranch (workflow-multibranch): 2.20
-GitHub plugin (github): 1.29.4
-Icon Shim Plugin (icon-shim): 2.0.3
-Token Macro Plugin (token-macro): 2.6
-Handy Uri Templates 2.x API Plugin (handy-uri-templates-2-api): 2.1.7-1.0
-HTTP Request Plugin (http_request): 1.8.22
-Git client plugin (git-client): 2.7.6
-PAM Authentication plugin (pam-auth): 1.4
-Bitbucket Pipeline for Blue Ocean (blueocean-bitbucket-pipeline): 1.6.2
-Resource Disposer Plugin (resource-disposer): 0.12
-Git plugin (git): 3.9.3
-Command Agent Launcher Plugin (command-launcher): 1.3
-MapDB API Plugin (mapdb-api): 1.0.9.0
+multiple-scms:0.6
+pipeline-input-step:2.10
+docker-java-api:3.0.14
+pipeline-model-api:1.3.7
+credentials-binding:1.18
+cloudbees-bitbucket-branch-source:2.4.2
+windows-slaves:1.4
+maven-plugin:3.2
+global-build-stats:1.5
+docker-commons:1.13
+cloverphp:0.5
+promoted-builds:3.2
+pipeline-model-definition:1.3.7
+git-server:1.7
+cloudbees-folder:6.7
+authentication-tokens:1.3
+docker-custom-build-environment:1.7.3
+antisamy-markup-formatter:1.5
+blueocean-rest-impl:1.14.0
+bouncycastle-api:2.17
+timestamper:1.9
+momentjs:1.1.1
+htmlpublisher:1.18
+cloudbees-disk-usage-simple:0.9
+buildtriggerbadge:2.10
+blueocean-jwt:1.14.0
+mailer:1.23
+workflow-step-api:2.19
+blueocean-pipeline-api-impl:1.14.0
+bitbucket-build-status-notifier:1.4.1
+jenkins-design-language:1.14.0
+checkstyle:4.0.0
+jackson2-api:2.9.8
+pipeline-stage-view:2.10
+jquery-detached:1.2.1
+javadoc:1.5
+workflow-cps-global-lib:2.13
+ws-cleanup:0.37
+credentials:2.1.18
+ghprb:1.42.0
+monitoring:1.76.0
+branch-api:2.2.0
+workflow-cps:2.65
+aws-credentials:1.26
+ssh-slaves:1.29.4
+workflow-api:2.33
+script-security:1.56
+blueocean-web:1.14.0
+github-oauth:0.31
+jdk-tool:1.2
+ldap:1.20
+violations:0.7.11
+ace-editor:1.1
+workflow-scm-step:2.7
+structs:1.17
+pipeline-stage-step:2.3
+pipeline-milestone-step:1.3.1
+docker-build-publish:1.3.2
+github-api:1.95
+test-results-analyzer:0.3.5
+tasks:4.53
+embeddable-build-status:2.0
+external-monitor-job:1.7
+plot:2.1.0
+copy-to-slave:1.4.4
+pipeline-stage-tags-metadata:1.3.7
+lockable-resources:2.5
+pubsub-light:1.12
+docker-plugin:1.1.6
+ssh-agent:1.17
+php:1.0
+ssh-credentials:1.15
+jdepend:1.3.0
+github-branch-source:2.4.5
+junit:1.27
+workflow-basic-steps:2.15
+email-ext:2.66
+blueocean-pipeline-scm-api:1.14.0
+handlebars:1.1.1
+display-url-api:2.3.1
+dry:3.0.0
+xunit:2.3.3
+workflow-support:3.2
+matrix-project:1.14
+subversion:2.12.1
+pmd:4.0.0
+blueocean-core-js:1.14.0
+pipeline-graph-analysis:1.9
+pipeline-rest-api:2.10
+durable-task:1.29
+blueocean-rest:1.14.0
+gradle:1.31
+build-user-vars-plugin:1.5
+aws-java-sdk:1.11.457
+docker-workflow:1.17
+plain-credentials:1.5
+pipeline-model-extensions:1.3.7
+variant:1.2
+build-timeout:1.19
+ant:1.9
+blueocean-commons:1.14.0
+mercurial:2.5
+docker-traceability:1.2
+workflow-aggregator:2.6
+apache-httpcomponents-client-4-api:4.5.5-3.0
+scm-api:2.4.0
+jsch:0.1.55
+bitbucket:1.1.8
+github-organization-folder:1.6
+pipeline-github-lib:1.0
+favorite:2.3.2
+matrix-auth:2.3
+analysis-core:1.95
+pipeline-model-declarative-agent:1.1.1
+workflow-durable-task-step:2.29
+pipeline-build-step:2.8
+phing:0.13.3
+workflow-job:2.32
+workflow-multibranch:2.21
+github:1.29.4
+icon-shim:2.0.3
+token-macro:2.7
+handy-uri-templates-2-api:2.1.7-1.0
+http_request:1.8.22
+git-client:2.7.6
+pam-auth:1.4
+blueocean-bitbucket-pipeline:1.14.0
+resource-disposer:0.12
+git:3.9.3
+command-launcher:1.3
+mapdb-api:1.0.9.0
